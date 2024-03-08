@@ -1,23 +1,36 @@
+body {
+  overflow: auto;
+  margin-right: 0;
+  margin-left: 1cm;
+  line-height: 1.2;
+}
+
+h5 {
+  text-align: center;
+  font-size: larger;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 0.14em;
+}
+
+body {
+  max-width: 1000px;
+  text-align: left;
+  font-size: 1.3em;
+}
+
 body.oswald-spanks {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-body {
-  max-width: 900px;
-  margin-left: 20px;
-  text-align: left;
-  overflow-x: hidden;
-  font-size: 1.5em;
-}
-
 p {
   text-indent: 15px;
-
 }
 
-h1,
 h2,
 h3 {
   font-weight: bold;
