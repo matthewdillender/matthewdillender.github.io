@@ -7,8 +7,14 @@ body.oswald-spanks {
 
 body {
   padding: 10px 20px 30px;
-  ma
+
 }
+
+p {
+  max-width: 400px;
+
+}
+
 
 h1,
 h2,
