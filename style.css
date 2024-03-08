@@ -6,14 +6,13 @@ body.oswald-spanks {
 }
 
 body {
-  padding: 10px;
-
+  padding: 10px 20px 30px;
+  ma
 }
 
 h1,
 h2,
-h3,
-{
-font-weight: bold;
+h3 {
+  font-weight: bold;
 
 }
