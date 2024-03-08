@@ -2,14 +2,11 @@ body.oswald-spanks {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20em;
-  font-size: 1.5em;
 }
 
 body {
   max-width: 900px;
   margin-left: 20px;
-  margin-right: 20px;
   text-align: left;
   overflow-x: hidden;
   font-size: 1.5em;
