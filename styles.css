@@ -30,6 +30,11 @@ body.oswald-spanks {
 p {
   text-indent: 15px;
 }
+a {
+  text-decoration: none; /* Remove default underline */
+  color: blue; /* Change the default link color */
+  font-weight: bold; /* Make the font bold */
+}
 
 h2,
 h3 {
