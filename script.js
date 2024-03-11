@@ -13,3 +13,18 @@ if (hourNow > 18) {
 }
 
 document.getElementById("greeting").textContent = greeting;
+
+function fitToBrowser() {
+  var content = document.getElementById("content");
+  var viewportWidth = window.innerWidth;
+  var viewportHeight = window.innerHeight;
+
+  content.style.width = viewportWidth + "px";
+  content.style.height = viewportHeight + "px";
+}
+
+// Call fitToBrowser initially
+fitToBrowser();
+
+// Call fitToBrowser whenever the window is resized
+window.addEventListener("resize", fitToBrowser);
